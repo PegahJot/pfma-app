@@ -34,8 +34,8 @@ function App() {
         // setLat(49.4012450);
         // setLng(-123.5035870);
         // const result = await getSubareaForLatLng(lat, lng);
-        // const result = await Subarea(lat, lng);
-        const result = await Subarea(48.638323, -123.335312);
+        const result = await Subarea(lat, lng);
+        // const result = await Subarea(48.638323, -123.335312);
         setSubarea(result);
       },
       (err) => {
@@ -57,7 +57,7 @@ function App() {
           <>
             <p><b>Latitude:</b> {lat}</p>
             <p><b>Longitude:</b> {lng}</p>
-            <p><b>Subarea:</b> {subarea != null ? subarea : "Not in the PFMA area"}</p>
+            <p><b>Subarea:</b> {subarea != null ? subarea : "Not in a PFMA area"}</p>
           </>
         ) : (
           <p>No location yet</p>
