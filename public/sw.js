@@ -1,4 +1,4 @@
-const CACHE_NAME = 'pfma-app-v1';
+const CACHE_NAME = 'pfma-app-v2';
 const urlsToCache = [
   '/',
   '/src/main.tsx',

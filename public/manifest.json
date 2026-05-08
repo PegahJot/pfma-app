@@ -10,9 +10,15 @@
   "icons": [
     {
       "src": "/PFMA.png",
-      "sizes": "any",
+      "sizes": "215x215",
       "type": "image/png",
-      "purpose": "any maskable"
+      "purpose": "any"
+    },
+    {
+      "src": "/PFMA.svg",
+      "sizes": "any",
+      "type": "image/svg+xml",
+      "purpose": "any"
     }
   ],
   "categories": ["finance", "productivity"],
