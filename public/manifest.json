@@ -1,6 +1,6 @@
 {
-  "name": "JOT PFMA",
-  "short_name": "JOT PFMA",
+  "name": "JOT-PFMA",
+  "short_name": "JOT-PFMA",
   "description": "Canada Pacific Fishery Management Area",
   "start_url": "/",
   "display": "standalone",
@@ -9,9 +9,9 @@
   "orientation": "portrait-primary",
   "icons": [
     {
-      "src": "/PFMA.svg",
+      "src": "/PFMA.png",
       "sizes": "any",
-      "type": "image/svg+xml",
+      "type": "image/png",
       "purpose": "any maskable"
     }
   ],
